@@ -12,7 +12,7 @@ The hyperparameters are learning rate, batch size, and the number of hidden laye
 After trying a lot of values of epochs, seventy-five epochs gave us the best results.
 With the best hyperparameters, the results were:
 When the upper graph is the loos on the train and the other is on the validation.
-
+![The loss on the train and validation](https://user-images.githubusercontent.com/118376368/212502295-7ac44f82-d363-4a2e-a4ed-fc57c99e0670.png)
 
 #### Regularization:
 In order to prevent Overfitting and to make the loss more stable, we added L1, L2 regularization. 
