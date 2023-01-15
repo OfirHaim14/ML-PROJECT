@@ -1,7 +1,7 @@
 # ML-PROJECT
 ML project that goes from simple ML models to Artificail Neural Network
 ## Data Set:
-The data set is about diamonds and was taken from Kaggle. 
+The data set is about diamonds and was taken from Kaggle.  
 The data set URL: https://shorturl.at/bgzOX. 
 ## Our models:
 ### Regression Artificial Neural Network:
