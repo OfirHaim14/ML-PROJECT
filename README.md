@@ -24,3 +24,25 @@ For this model, we used Sklearn LinearRegression().
 We found the hyperparameters and parameters by using the function Gridsearchcv(). 
 After finding the best params and hyper params and running the model on the test data we got the graph below. Because our data don’t have linear connections from all our models this had the worst results.
 ![predicted vs original](https://user-images.githubusercontent.com/118376368/212502565-472ce500-d6a3-46bb-bb24-fcf8d93d37be.png)
+
+
+### Decision Tree Regression
+For this model, we used Sklearn’s DecisionTreeRegressor(). 
+We found the hyperparameters and parameters by using the function Gridsearchcv(). 
+The graph below is of the decision tree we got. After finding the best hyperparameters we got: MSE = 0.0021980024725109576, MAE = 0.026370013007981752, R2 Score = 0.9533918564817808.
+![Decision Tree](https://user-images.githubusercontent.com/118376368/212503137-146962bc-d4bf-40e9-bfac-f19a890f59e2.png)
+
+
+### Random Forest Regression
+For this model, we used Sklearn’s RandomForestRegressor(). 
+Random Forest is practically a collection of decision trees that are being built while we train. When we want to do the regression with a random forest the model takes the average of the loss of every tree it built when the number of trees in the model is one of the hyperparameters. Because of that Random forest is more accurate that a single decision tree and prevents the single decision tree's tendency to overfit. 
+We found the hyperparameters and parameters by using the function Gridsearchcv(). 
+After finding the best hyperparameters we got: MSE = 0.0011835961014466684, MAE = 0.01613269253007221, R2 Score = 0.9749021133261915. As expected Random forest is more accurate than a single decision Tree.
+
+### K-Nearest Neighbors Regression:                        
+For this model, we used Sklearn’s KNeighborsRegressor(). We found the hyperparameters and parameters by using the function Gridsearchcv().  After finding the best hyperparameters we got: MSE = 0.0017245582203189304, MAE = 0.02059501959897579, R2 Score = 0.9634311343852464.
+
+# Comparing the models:
+
+![The model and it's results](https://user-images.githubusercontent.com/118376368/212503264-4efca0a9-54cd-4022-af02-3b60f851a4ac.png)
+As expected the model with the best results is the neural network when random forest very close to him.
