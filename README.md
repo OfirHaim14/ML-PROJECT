@@ -16,7 +16,6 @@ When the upper graph is the loos on the train and the other is on the validation
 
 #### Regularization:
 In order to prevent Overfitting and to make the loss more stable, we added L1, L2 regularization. 
-Lambada1 is the name for L1 regularization lambda and Lambada2 is the name for L2 regularization lambda. 
 
 ### Linear Regression:
 For this model, we used Sklearn LinearRegression(). 
