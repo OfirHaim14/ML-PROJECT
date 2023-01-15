@@ -28,7 +28,8 @@ Because our data don’t have linear connections from all our models this had th
 ### Decision Tree Regression
 For this model, we used Sklearn’s DecisionTreeRegressor().  
 We found the hyperparameters and parameters by using the function Gridsearchcv().  
-The graph below is of the decision tree we got. After finding the best hyperparameters we got: MSE = 0.0021980024725109576, MAE = 0.026370013007981752, R2 Score = 0.9533918564817808.  
+The graph below is of the decision tree we got.  
+After finding the best hyperparameters we got: MSE = 0.0021980024725109576, MAE = 0.026370013007981752, R2 Score = 0.9533918564817808.  
 ![Decision Tree](https://user-images.githubusercontent.com/118376368/212503137-146962bc-d4bf-40e9-bfac-f19a890f59e2.png)
 
 
