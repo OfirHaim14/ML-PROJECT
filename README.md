@@ -45,4 +45,4 @@ For this model, we used Sklearn’s KNeighborsRegressor(). We found the hyperpar
 # Comparing the models:
 
 ![The model and it's results](https://user-images.githubusercontent.com/118376368/212503264-4efca0a9-54cd-4022-af02-3b60f851a4ac.png)  
-As expected the model with the best results is the neural network when random forest very close to him.
+As expected the model with the best results is the neural network when random forest is very close to him.
