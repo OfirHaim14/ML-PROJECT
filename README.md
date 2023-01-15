@@ -33,7 +33,7 @@ The graph below is of the decision tree we got. After finding the best hyperpara
 
 
 ### Random Forest Regression
-For this model, we used Sklearn’s RandomForestRegressor().  
+For this model, we used Sklearn’s RandomForestRegressor().   
 Random Forest is practically a collection of decision trees that are being built while we train. When we want to do the regression with a random forest the model takes the average of the loss of every tree it built when the number of trees in the model is one of the hyperparameters. Because of that Random forest is more accurate that a single decision tree and prevents the single decision tree's tendency to overfit.  
 We found the hyperparameters and parameters by using the function Gridsearchcv().  
 After finding the best hyperparameters we got: MSE = 0.0011835961014466684, MAE = 0.01613269253007221, R2 Score = 0.9749021133261915. As expected Random forest is more accurate than a single decision Tree.
