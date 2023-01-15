@@ -4,7 +4,7 @@ ML project that goes from simple ML models to Artificail Neural Network
 The data set is about diamonds and was taken from Kaggle. 
 The data set URL: https://shorturl.at/bgzOX. 
 ## Our models:
-### Regression Artificial Neural Network
+### Regression Artificial Neural Network:
 Our model enables us to get a number of hidden layers from different sizes in a list. The number of hidden layers and hidden cells in every layer are the hyperparameters of the model. 
 The optimizer is Adam and the loss is MSE.
 #### Hyper parametrs tuning: 
